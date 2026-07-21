@@ -12,9 +12,7 @@
 
 
 # Robi_Eyes
- ## Lasercutter-Version
 
-![Bild](pic/Robi_Eyes.gif)
 
 ![pic](/pic/Roby_Eyes.gif)
 
