@@ -17,6 +17,7 @@
 ![Bild](pic/Robi_Eyes.gif)
 
 
+
 ## Story:
 Das Repo beschreibt den Robi_Eyes, er hat zwei MAX72xx Displays für die Augen und er kann laufen, tanzen und den Moonwalk. Jedes Bein hat zwei Gelenke, die von Servo-Motoren bewegt werden. Als Steuerung dient ein Arduino NANO, gespeist von einer 9V-Batterie.
 Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
