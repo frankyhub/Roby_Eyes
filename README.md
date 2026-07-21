@@ -7,7 +7,7 @@
 | | | | |
 |![Static Badge](https://img.shields.io/badge/RepoNr.:-%20118-blue)|<a href="https://github.com/frankyhub/Roby_Eyes/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Roby_Eyes)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Roby_Eyes)|<a href="https://github.com/frankyhub/Roby_Eyes/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Roby_Eyes)|<a href="https://github.com/frankyhub/Roby_Eyes/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Roby_Eyes)|
 |![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/Roby_Eyes)| <a href="https://github.com/frankyhub/Roby_Eyes/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/Roby_Eyes/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
-</div>
+
 
 
 
