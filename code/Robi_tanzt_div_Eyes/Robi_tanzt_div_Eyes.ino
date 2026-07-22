@@ -1,7 +1,7 @@
 /************************************************************************************************* 
                                       PROGRAMMINFO
 ************************************************************************************************** 
-Funktion: ROBI tanzt - MAX72xx Display Angry Eyes; big Eye + Little Eye; Big Eyes -> Dancing
+Funktion: ROBI tanzt - MAX72xx Display Angry Eyes; big Eye + little Eye; Big Eyes -> Dancing
 **************************************************************************************************
 Version: 2107.2026
 **************************************************************************************************
@@ -542,17 +542,18 @@ void loop()
   lc884.setRow(1,5,B01011010);
   lc884.setRow(1,6,B01000010);
   lc884.setRow(1,7,B00111100); 
-      delay(1000);      
+      delay(2000);      
 
   lc884.setRow(0,0,B00000000); // Little Eye
   lc884.setRow(0,0,B00000000);
   lc884.setRow(0,1,B00000000);
   lc884.setRow(0,2,B00000000);
-  lc884.setRow(0,3,B00111100);
-  lc884.setRow(0,4,B01011010);
+  lc884.setRow(0,3,B00000000);  
+  lc884.setRow(0,4,B00111100);
   lc884.setRow(0,5,B01011010);
-  lc884.setRow(0,6,B01000010);
-  lc884.setRow(0,7,B00111100); 
+  lc884.setRow(0,6,B00111100);
+  lc884.setRow(0,7,B00000000);
+
   
   lc884.setRow(1,0,B00111100); // Big Eye
   lc884.setRow(1,1,B01000010);
@@ -562,7 +563,7 @@ void loop()
   lc884.setRow(1,5,B01011010);
   lc884.setRow(1,6,B01000010);
   lc884.setRow(1,7,B00111100);
-       delay(1000);
+       delay(2000);
 
   lc884.setRow(0,0,B00111100); // Big Eye
   lc884.setRow(0,1,B01000010);
