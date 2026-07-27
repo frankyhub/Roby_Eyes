@@ -2,7 +2,7 @@
 
 <div align="center">
 
-|[:skull:ISSUE](https://github.com/frankyhub/Robi_Eyes_Eyes/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Robi_Eyes/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Robi_Eyes/wiki)||
+|[:skull:ISSUE](https://github.com/frankyhub/Roby_Eyes/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Roby…Eyes/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Roby…Eyes/wiki)||
 |--|--|--|--|
 | | | | |
 |![Static Badge](https://img.shields.io/badge/RepoNr.:-%20118-blue)|<a href="https://github.com/frankyhub/Roby_Eyes/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Roby_Eyes)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Roby_Eyes)|<a href="https://github.com/frankyhub/Roby_Eyes/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Roby_Eyes)|<a href="https://github.com/frankyhub/Roby_Eyes/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Roby_Eyes)|
