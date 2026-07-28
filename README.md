@@ -19,7 +19,7 @@
 
 
 ## Story:
-Das Repo beschreibt den Robi_Eyes, er hat zwei MAX72xx Displays für die Augen und er kann laufen, tanzen und den Moonwalk. Jedes Bein hat zwei Gelenke, die von Servo-Motoren bewegt werden. Als Steuerung dient ein Arduino NANO, gespeist von einer 9V-Batterie.
+Das Repo beschreibt den Robi_Eyes, er hat zwei MAX7219 Displays für die Augen und er kann laufen, tanzen und den Moonwalk. Jedes Bein hat zwei Gelenke, die von Servo-Motoren bewegt werden. Als Steuerung dient ein Arduino NANO, gespeist von einer 9V-Batterie.
 Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
 
 
@@ -34,7 +34,7 @@ Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
 | 1  |  40 Pin Male 2,54mm Stiftleisten einreihig für das NANO-Shield | 
 |  1 |  40 Pin Female 2,54 mm Buchsenleiste einreihig für das NANO-Shield | 
 | 1  | Schalter 1 polig  | 
-| 2  | MAX72xx Displays  | 
+| 2  | MAX7219 Displays  | 
 | 1  | 9V Batterie  | 
 | 1  | 9V Batterie-Klipp  | 
 | 4  | Servo Motore SG90  | 
