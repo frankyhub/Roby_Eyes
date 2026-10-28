@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 **************************************************************************************************/
 
 #include "LedControl.h" //V1.0.6
-LedControl lc884=LedControl(11,13,10,2); //DIN, CLK, CS, Anzahl der Module
+LedControl lc=LedControl(11,13,10,2); //DIN, CLK, CS, Anzahl der Module
 
 #include "VarSpeedServo.h"  
 #include <NewPing.h>        
@@ -483,171 +483,171 @@ void Dancing6()
 }
 
 void eyes(){
-  lc884.setRow(0,0,B00000000);
-  lc884.setRow(0,1,B00111100);
-  lc884.setRow(0,2,B01000010);
-  lc884.setRow(0,3,B01011010);
-  lc884.setRow(0,4,B01011010);
-  lc884.setRow(0,5,B01000010);
-  lc884.setRow(0,6,B00111100);
-  lc884.setRow(0,7,B00000000);
+  lc.setRow(0,0,B00000000);
+  lc.setRow(0,1,B00111100);
+  lc.setRow(0,2,B01000010);
+  lc.setRow(0,3,B01011010);
+  lc.setRow(0,4,B01011010);
+  lc.setRow(0,5,B01000010);
+  lc.setRow(0,6,B00111100);
+  lc.setRow(0,7,B00000000);
 
-  lc884.setRow(1,0,B00000000);
-  lc884.setRow(1,1,B00111100);
-  lc884.setRow(1,2,B01000010);
-  lc884.setRow(1,3,B01011010);
-  lc884.setRow(1,4,B01011010);
-  lc884.setRow(1,5,B01000010);
-  lc884.setRow(1,6,B00111100);
-  lc884.setRow(1,7,B00000000);
+  lc.setRow(1,0,B00000000);
+  lc.setRow(1,1,B00111100);
+  lc.setRow(1,2,B01000010);
+  lc.setRow(1,3,B01011010);
+  lc.setRow(1,4,B01011010);
+  lc.setRow(1,5,B01000010);
+  lc.setRow(1,6,B00111100);
+  lc.setRow(1,7,B00000000);
 }
 
 void eyeswink(){
-  lc884.setRow(0,0,B00000000);
-  lc884.setRow(0,1,B00000000);
-  lc884.setRow(0,2,B00000000);
-  lc884.setRow(0,3,B00000000);
-  lc884.setRow(0,4,B00111100);
-  lc884.setRow(0,5,B01011010);
-  lc884.setRow(0,6,B00111100);
-  lc884.setRow(0,7,B00000000);
+  lc.setRow(0,0,B00000000);
+  lc.setRow(0,1,B00000000);
+  lc.setRow(0,2,B00000000);
+  lc.setRow(0,3,B00000000);
+  lc.setRow(0,4,B00111100);
+  lc.setRow(0,5,B01011010);
+  lc.setRow(0,6,B00111100);
+  lc.setRow(0,7,B00000000);
 
-  lc884.setRow(1,0,B00111100);
-  lc884.setRow(1,1,B01000010);
-  lc884.setRow(1,2,B01000010);
-  lc884.setRow(1,3,B01000010);
-  lc884.setRow(1,4,B01011010);
-  lc884.setRow(1,5,B01011010);
-  lc884.setRow(1,6,B01000010);
-  lc884.setRow(1,7,B00111100);
+  lc.setRow(1,0,B00111100);
+  lc.setRow(1,1,B01000010);
+  lc.setRow(1,2,B01000010);
+  lc.setRow(1,3,B01000010);
+  lc.setRow(1,4,B01011010);
+  lc.setRow(1,5,B01011010);
+  lc.setRow(1,6,B01000010);
+  lc.setRow(1,7,B00111100);
 }
 
 void eyesclose(){
   // 2 x Eyes close
-  lc884.setRow(0,0,B00000000);
-  lc884.setRow(0,1,B00000000);
-  lc884.setRow(0,2,B00000000);
-  lc884.setRow(0,3,B00000000);
-  lc884.setRow(0,4,B00111100);
-  lc884.setRow(0,5,B01000010);
-  lc884.setRow(0,6,B01011010);
-  lc884.setRow(0,7,B00111100);
+  lc.setRow(0,0,B00000000);
+  lc.setRow(0,1,B00000000);
+  lc.setRow(0,2,B00000000);
+  lc.setRow(0,3,B00000000);
+  lc.setRow(0,4,B00111100);
+  lc.setRow(0,5,B01000010);
+  lc.setRow(0,6,B01011010);
+  lc.setRow(0,7,B00111100);
 
-  lc884.setRow(1,0,B00000000);
-  lc884.setRow(1,1,B00000000);
-  lc884.setRow(1,2,B00000000);
-  lc884.setRow(1,3,B00000000);
-  lc884.setRow(1,4,B00111100);
-  lc884.setRow(1,5,B01000010);
-  lc884.setRow(1,6,B01011010);
-  lc884.setRow(1,7,B00111100);
+  lc.setRow(1,0,B00000000);
+  lc.setRow(1,1,B00000000);
+  lc.setRow(1,2,B00000000);
+  lc.setRow(1,3,B00000000);
+  lc.setRow(1,4,B00111100);
+  lc.setRow(1,5,B01000010);
+  lc.setRow(1,6,B01011010);
+  lc.setRow(1,7,B00111100);
 }
 
 void eyesclose2(){
   // 2 x Eyes up
-  lc884.setRow(0,0,B00000000);
-  lc884.setRow(0,1,B00000000);
-  lc884.setRow(0,2,B00000000);
-  lc884.setRow(0,3,B00000000);
-  lc884.setRow(0,4,B00111100);
-  lc884.setRow(0,5,B01000010);
-  lc884.setRow(0,6,B01011010);
-  lc884.setRow(0,7,B00111100);
+  lc.setRow(0,0,B00000000);
+  lc.setRow(0,1,B00000000);
+  lc.setRow(0,2,B00000000);
+  lc.setRow(0,3,B00000000);
+  lc.setRow(0,4,B00111100);
+  lc.setRow(0,5,B01000010);
+  lc.setRow(0,6,B01011010);
+  lc.setRow(0,7,B00111100);
 
-  lc884.setRow(1,0,B00000000);
-  lc884.setRow(1,1,B00000000);
-  lc884.setRow(1,2,B00000000);
-  lc884.setRow(1,3,B00000000);
-  lc884.setRow(1,4,B00111100);
-  lc884.setRow(1,5,B01000010);
-  lc884.setRow(1,6,B01011010);
-  lc884.setRow(1,7,B00111100);
+  lc.setRow(1,0,B00000000);
+  lc.setRow(1,1,B00000000);
+  lc.setRow(1,2,B00000000);
+  lc.setRow(1,3,B00000000);
+  lc.setRow(1,4,B00111100);
+  lc.setRow(1,5,B01000010);
+  lc.setRow(1,6,B01011010);
+  lc.setRow(1,7,B00111100);
 }
 
 
 
 void eyesdown(){
   // 2 x Eyes down
-  lc884.setRow(0,0,B00111100);
-  lc884.setRow(0,1,B01000010);
-  lc884.setRow(0,2,B01000010);
-  lc884.setRow(0,3,B01000010);
-  lc884.setRow(0,4,B01000010);
-  lc884.setRow(0,5,B01011010);
-  lc884.setRow(0,6,B01011010);
-  lc884.setRow(0,7,B00111100);
+  lc.setRow(0,0,B00111100);
+  lc.setRow(0,1,B01000010);
+  lc.setRow(0,2,B01000010);
+  lc.setRow(0,3,B01000010);
+  lc.setRow(0,4,B01000010);
+  lc.setRow(0,5,B01011010);
+  lc.setRow(0,6,B01011010);
+  lc.setRow(0,7,B00111100);
 
-  lc884.setRow(1,0,B00111100);
-  lc884.setRow(1,1,B01000010);
-  lc884.setRow(1,2,B01000010);
-  lc884.setRow(1,3,B01000010);
-  lc884.setRow(1,4,B01000010);
-  lc884.setRow(1,5,B01011010);
-  lc884.setRow(1,6,B01011010);
-  lc884.setRow(1,7,B00111100);
+  lc.setRow(1,0,B00111100);
+  lc.setRow(1,1,B01000010);
+  lc.setRow(1,2,B01000010);
+  lc.setRow(1,3,B01000010);
+  lc.setRow(1,4,B01000010);
+  lc.setRow(1,5,B01011010);
+  lc.setRow(1,6,B01011010);
+  lc.setRow(1,7,B00111100);
 }
 
 void eyesleft(){
   // 2 x Eyes left
-  lc884.setRow(0,0,B00000000);
-  lc884.setRow(0,1,B00000000);
-  lc884.setRow(0,2,B00111100);
-  lc884.setRow(0,3,B01000010);
-  lc884.setRow(0,4,B01110010);
-  lc884.setRow(0,5,B01110010);
-  lc884.setRow(0,6,B01000010);
-  lc884.setRow(0,7,B00111100);
+  lc.setRow(0,0,B00000000);
+  lc.setRow(0,1,B00000000);
+  lc.setRow(0,2,B00111100);
+  lc.setRow(0,3,B01000010);
+  lc.setRow(0,4,B01110010);
+  lc.setRow(0,5,B01110010);
+  lc.setRow(0,6,B01000010);
+  lc.setRow(0,7,B00111100);
 
-  lc884.setRow(1,0,B00000000);
-  lc884.setRow(1,1,B00000000);
-  lc884.setRow(1,2,B00111100);
-  lc884.setRow(1,3,B01000010);
-  lc884.setRow(1,4,B01110010);
-  lc884.setRow(1,5,B01110010);
-  lc884.setRow(1,6,B01000010);
-  lc884.setRow(1,7,B00111100);
+  lc.setRow(1,0,B00000000);
+  lc.setRow(1,1,B00000000);
+  lc.setRow(1,2,B00111100);
+  lc.setRow(1,3,B01000010);
+  lc.setRow(1,4,B01110010);
+  lc.setRow(1,5,B01110010);
+  lc.setRow(1,6,B01000010);
+  lc.setRow(1,7,B00111100);
 }
 
     void eyesright(){
   // 2 x Eyes right
-  lc884.setRow(0,0,B00000000);
-  lc884.setRow(0,1,B00000000);
-  lc884.setRow(0,2,B00111100);
-  lc884.setRow(0,3,B01000010);
-  lc884.setRow(0,4,B01001110);
-  lc884.setRow(0,5,B01001110);
-  lc884.setRow(0,6,B01000010);
-  lc884.setRow(0,7,B00111100);
+  lc.setRow(0,0,B00000000);
+  lc.setRow(0,1,B00000000);
+  lc.setRow(0,2,B00111100);
+  lc.setRow(0,3,B01000010);
+  lc.setRow(0,4,B01001110);
+  lc.setRow(0,5,B01001110);
+  lc.setRow(0,6,B01000010);
+  lc.setRow(0,7,B00111100);
 
-  lc884.setRow(1,0,B00000000);
-  lc884.setRow(1,1,B00000000);
-  lc884.setRow(1,2,B00111100);
-  lc884.setRow(1,3,B01000010);
-  lc884.setRow(1,4,B01001110);
-  lc884.setRow(1,5,B01001110);
-  lc884.setRow(1,6,B01000010);
-  lc884.setRow(1,7,B00111100);
+  lc.setRow(1,0,B00000000);
+  lc.setRow(1,1,B00000000);
+  lc.setRow(1,2,B00111100);
+  lc.setRow(1,3,B01000010);
+  lc.setRow(1,4,B01001110);
+  lc.setRow(1,5,B01001110);
+  lc.setRow(1,6,B01000010);
+  lc.setRow(1,7,B00111100);
 }
 
     void eyesangry(){
    //2 x Eyes angry
-  lc884.setRow(0,0,B00000010);
-  lc884.setRow(0,1,B00000110);
-  lc884.setRow(0,2,B00001010);
-  lc884.setRow(0,3,B00010010);
-  lc884.setRow(0,4,B00101010);
-  lc884.setRow(0,5,B01011010);
-  lc884.setRow(0,6,B01000010);
-  lc884.setRow(0,7,B00111100);
+  lc.setRow(0,0,B00000010);
+  lc.setRow(0,1,B00000110);
+  lc.setRow(0,2,B00001010);
+  lc.setRow(0,3,B00010010);
+  lc.setRow(0,4,B00101010);
+  lc.setRow(0,5,B01011010);
+  lc.setRow(0,6,B01000010);
+  lc.setRow(0,7,B00111100);
    
-  lc884.setRow(1,0,B01000000);
-  lc884.setRow(1,1,B01100000);
-  lc884.setRow(1,2,B01010000);
-  lc884.setRow(1,3,B01001000);
-  lc884.setRow(1,4,B01010100);
-  lc884.setRow(1,5,B01011010);
-  lc884.setRow(1,6,B01000010);
-  lc884.setRow(1,7,B00111100);
+  lc.setRow(1,0,B01000000);
+  lc.setRow(1,1,B01100000);
+  lc.setRow(1,2,B01010000);
+  lc.setRow(1,3,B01001000);
+  lc.setRow(1,4,B01010100);
+  lc.setRow(1,5,B01011010);
+  lc.setRow(1,6,B01000010);
+  lc.setRow(1,7,B00111100);
 }
 
 
@@ -661,9 +661,9 @@ Serial.begin(11500);
 Serial.print("lets go");  
 
   for(int i=0;i<2;i++){
-    lc884.shutdown(i,false);
-    lc884.setIntensity(i,8);
-    lc884.clearDisplay(i);
+    lc.shutdown(i,false);
+    lc.setIntensity(i,8);
+    lc.clearDisplay(i);
   }
 
   
