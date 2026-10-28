@@ -29,11 +29,11 @@ VarSpeedServo myservo2;
 VarSpeedServo myservo3;
 VarSpeedServo myservo4;  
 
-//PIN Belgung für NANO Board 3.1 2022 V2
-const int servoPin1 = 6; 
-const int servoPin2 = 7; 
-const int servoPin3 = 9; 
-const int servoPin4 = 10; 
+
+const int servoPin1 = 5; 
+const int servoPin2 = 6; 
+const int servoPin3 = 8; 
+const int servoPin4 = 9; 
 
 const  int CAL = 15;
 const  int SPEED1 = 30;
