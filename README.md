@@ -170,9 +170,13 @@ In der Programmzeile 233 den "RUN" Modus auswählen:
 + //#define CALIBRATION
 + #define RUN
 
+<div align="center">
+  
 ## Schritt 8
 
-Funktionstest
+Es stehen auch 3D-Druck Arme zur Verfügung, die an das Kopfteil geklebt werden. 
+
+Abschließend folgt der Funktionstest.
   
 ---
 
