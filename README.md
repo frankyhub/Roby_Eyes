@@ -149,7 +149,7 @@ In der Programmzeile 233 den eine Modus auswählen:
 + //#define CALIBRATION
 + #define RUN
 
-<div align="center">
+
   
 Den NANO, den Schalter und die LED-Matrix in das Kopfteil montieren und verdrahten.
 
@@ -170,7 +170,7 @@ Den NANO, den Schalter und die LED-Matrix in das Kopfteil montieren und verdraht
 |    CLK | D13|
 | -------- | -------- | 
 
-
+<div align="center">
 
   
 ## Technische Hinweise
