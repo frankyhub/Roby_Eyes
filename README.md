@@ -53,11 +53,7 @@ Der Aufbau und die Montage von Robi ist in mehrere Schritte unterteilt
 
 ## Schritt 1: 
 
-Verwende die Lasercutter Vorlage, bestehend aus:
-1 x Kopf Oberteilteil
-1 x Kopf Unterteil
-2 x Füße
-2 x Schuhe
+Verwende die Lasercutter Vorlage, bestehend aus, Kopf Oberteilteil, Füße und Schuhe
 
 <img src="pic/07robi.png" width="500"> 
 <br> <br>
