@@ -96,7 +96,7 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 ## Schritt 4: 
 Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 
-<div>
+</div>
   
 |	Servo	|	NANO|
 | -------- | -------- | 
@@ -158,7 +158,7 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 
 ## Schritt 7: 
 
-Das "RUN" Programm in den NANO laden.
+Das "RUN" Programm in den NANO laden anschließend den NANO mit Shield, den Schalter und das LED-Display in das Kopfteil montieren.
 
 </div>
 
