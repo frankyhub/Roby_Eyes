@@ -61,7 +61,7 @@ Verwende die Lasercutter Vorlage, bestehend aus, Kopfteil, Füße und Schuhe
 
 ## Schritt 2: 
 
-Das Kopfteil montieren.
+Das Kopfteil montieren. Die Deckplatte noch nicht verkleben.
 
 <img src="pic/08robi.png" width="500"> 
 <br> <br>
