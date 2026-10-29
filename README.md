@@ -54,10 +54,10 @@ Der Aufbau und die Montage von Robi ist in mehrere Schritte unterteilt
 ## Schritt 1: 
 Überprüfe die Laserteile auf Vollständigkeit.
 Verwende die Lasercutter Vorlage, bestehend aus:
-+ 1 x Kopf Oberteilteil
-+ 1 x Kopf Unterteil
-+ 2 x Füße
-+ 2 x Schuhe
+1 x Kopf Oberteilteil
+1 x Kopf Unterteil
+2 x Füße
+2 x Schuhe
 
 Lasercutter-Datei (3mm Sperrholz)
 
@@ -90,9 +90,6 @@ Die beiden Oberteile der Füße deckungsgleich verkleben (noch nicht an die Fü�
 
 Die Oberteile der Füße werden an den Servo im Kopfteil geschraubt.
 
-<img src="pic/17robi.png" width="500"> 
-<br> <br>
-
 Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet werden.
 
 <img src="pic/35servofuss.png" width="500"> 
@@ -112,12 +109,6 @@ Ist der Robi programmiert und sind die Servos in 90° Stellung, können sie in d
 
 ## Schritt 6: 
 Die beiden Servos in 90° Stellung mit den unteren Kopfteil und den Oberteil der Füße verschrauben. Die Servos sollten durch die Verschraubung fest am Kopfteil sitzen. Anschließend die 9V-Batterie mit den Kabelbinder befestigen.
-
-<img src="pic/19robi.png" width="500"> 
-<br> <br>
-
-<img src="pic/20robi.png" width="500"> 
-<br> <br>
 
 <img src="pic/21robi.png" width="500"> 
 <br> <br>
@@ -149,26 +140,15 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 ## Schritt 7: 
 Den NANO in das obere Kopfteil montieren
 Platinenhalter auf das Shield kleben und das Shield anschließend in das innere, obere Kopfteil kleben. Daneben den Schalter montieren und verdrahten.
-Vor dem endgültigen verkleben des NANOs in das Obere Kopfteil, sollte er fertig programmiert sein.
-Optional noch zwei LEDs mit 1kOhm Vorwiderstand an 9V als Augen verwenden.
+Vor dem endgültigen verkleben des NANOs in das Obere Kopfteil das Programm in den NANO laden.
 
+Es stehen 3 Programm-Modis zur verfügung.
 
-Einbau des NANO und der Battierie in den Robi-Kopfteil
+In der Programmzeile 233 den eine Modus auswählen:
 
-<img src="pic/28robi.png" width="500"> 
-<br> <br>
-
-Anschlüsse der LEDs
-
-<img src="pic/29robi.png" width="500"> 
-<br> <br>
-
-Anschluss des Batterieclips, des Schalters und der LEDs
-
-<img src="pic/30robi.png" width="500"> 
-<br> <br>
-
-Fertig, Glückwunsch!
+//#define INSTALL
+//#define CALIBRATION
+#define RUN
 
 ## Technische Hinweise
 
