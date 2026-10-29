@@ -176,6 +176,10 @@ In der Programmzeile 233 den "RUN" Modus auswählen:
 Es stehen auch 3D-Druck Arme zur Verfügung, die an das Kopfteil geklebt werden. 
 
 Abschließend folgt der Funktionstest.
+
+
+<img src="pic/RobiEyes.png" width="500"> 
+<br> <br>
   
 ---
 
