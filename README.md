@@ -68,16 +68,7 @@ Das Kopf Oberteil montieren.
 <br> <br>
 
 ## Schritt 3: 
-Das Kopf Unterteil montieren.
-Achtung: Das rechte und linke Seitenteil mit dem Gelenk zum Schluss zusammen mit dem Kopf Oberteil montieren!
-
-<img src="pic/08arobi.png" width="500"> 
-<br> <br>
-
-Im Kopf Unterteil die Halterungen für die Servos kleben
-
-<img src="pic/11robi.jpg" width="500"> 
-<br> <br>
+Das Kopfteil montieren.
 
 Die Hülle der beiden Füße verkleben.
 Achtung: Wir benötigen zwei Füße. Die Öffnungen für die Servokabel sind jeweils innen und die Servos zeigen nach vorne!
