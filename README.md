@@ -140,6 +140,7 @@ Den NANO in das obere Kopfteil montieren
 Platinenhalter auf das Shield kleben und das Shield anschließend in das innere, obere Kopfteil kleben. Daneben den Schalter montieren und verdrahten.
 Vor dem endgültigen verkleben des NANOs in das Obere Kopfteil das Programm in den NANO laden.
 
+</div>
 Es stehen 3 Programm-Modis zur verfügung.
 
 In der Programmzeile 233 den eine Modus auswählen:
@@ -148,6 +149,8 @@ In der Programmzeile 233 den eine Modus auswählen:
 + //#define CALIBRATION
 + #define RUN
 
+<div align="center">
+  
 ## Technische Hinweise
 
 
