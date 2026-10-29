@@ -121,12 +121,11 @@ Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 <br> <br>
 
 ## Schritt 5: 
-Vor der Montage der Servos ist ein Funktionstest sinnvoll:
-Den Robi mit der Arduino IDE (Robi_tanzt) programmieren. Es stehen auch Testprogramme für die Servos und das LED-Display zur Verfügung.
+Wir starten den ersten Funktionstest. Den NANO mit der Arduino IDE (Robi_tanzt.ino) programmieren. Es stehen auch Testprogramme für die Servos und das LED-Display zur Verfügung.
 
 Im Robi_tanzt.ino Programm kann zur korrekten Position der Servos der CALIBRATION-Modus gewählt werden (Programmzeile 233).
 
-Ist der Robi programmiert und sind die Servos in 90° Stellung, können sie in das Kopf-Unterteil und in die Füße montiert werden.
+Ist der Robi programmiert und sind die Servos in 90° Stellung, können sie in das Kopfteil und in die Füße montiert werden.
 
 
 ## Schritt 6: 
