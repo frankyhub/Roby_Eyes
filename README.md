@@ -42,7 +42,7 @@ Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
 | 1  | 20cm Schaltlitze 0,25mm2  | 
 
 
-## Der NANO mit Stiftleisten
+## Der NANO mit Shield und Stiftleisten
 
 <img src="pic/05robi.png" width="500"> 
 <br> <br>
