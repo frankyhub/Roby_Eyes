@@ -41,6 +41,183 @@ Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
 | 1  | Sekundenkleber  | 
 | 1  | 20cm Schaltlitze 0,25mm2  | 
 
+
+
+## Bauteilbilder der Stückliste
+
+![Bild](pic/04robi.png)
+
+## Der NANO mit [Shield](https://github.com/frankyhub/KiCad-Shield/tree/main/NANO_Bot) und Stiftleisten
+
+<img src="pic/05robi.png" width="500"> 
+<br> <br>
+
+## Aufbau und Montage
+
+Der Aufbau und die Montage von Robi ist in mehrere Schritte unterteilt
+
+## Schritt 1: 
+Überprüfe die Laserteile auf Vollständigkeit.
+Verwende die Lasercutter Vorlage, bestehend aus:
++ 1 x Kopf Oberteilteil
++ 1 x Kopf Unterteil
++ 2 x Füße
++ 2 x Schuhe
+
+Lasercutter-Datei (3mm Sperrholz)
+
+<img src="pic/06robi.png" width="500"> 
+<br> <br>
+
+ Füße und Schuhe (3mm Sperrholz)
+
+<img src="pic/07robi.png" width="500"> 
+<br> <br>
+
+## Schritt 2: 
+Das Kopf Oberteil montieren.
+
+<img src="pic/08robi.png" width="500"> 
+<br> <br>
+
+## Schritt 3: 
+Das Kopf Unterteil montieren.
+Achtung: Das rechte und linke Seitenteil mit dem Gelenk zum Schluss zusammen mit dem Kopf Oberteil montieren!
+
+<img src="pic/08arobi.png" width="500"> 
+<br> <br>
+
+Im Kopf Unterteil die Halterungen für die Servos kleben
+
+<img src="pic/11robi.jpg" width="500"> 
+<br> <br>
+
+Die Hülle der beiden Füße verkleben.
+Achtung: Wir benötigen zwei Füße. Die Öffnungen für die Servokabel sind jeweils innen und die Servos zeigen nach vorne!
+
+<img src="pic/12robi.png" width="500"> 
+<br> <br>
+
+<img src="pic/14robi.png" width="500"> 
+<br> <br>
+
+<img src="pic/15robi.png" width="500"> 
+<br> <br>
+
+Die beiden Oberteile der Füße deckungsgleich verkleben (noch nicht an die Füße kleben!).
+
+<img src="pic/16robi.png" width="500"> 
+<br> <br>
+
+
+Die Oberteile der Füße werden an den Servo im Kopfteil geschraubt.
+
+<img src="pic/17robi.png" width="500"> 
+<br> <br>
+
+Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet werden.
+
+<img src="pic/35servofuss.png" width="500"> 
+<br> <br>
+
+## Schritt 4: 
+Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
+
+<img src="pic/31robi.png" width="500"> 
+<br> <br>
+
+## Schritt 5: 
+Vor der Montage der Servos ist ein Funktionstest sinnvoll:
+Den Robi mit der Arduino IDE in C++ oder in Blocksprache programmieren.
+Ist der Robi programmiert und sind die Servos in 90° Stellung, können sie in das Kopf-Unterteil und in die Füße montiert werden.
+
+
+## Schritt 6: 
+Die beiden Servos in 90° Stellung mit den unteren Kopfteil und den Oberteil der Füße verschrauben. Die Servos sollten durch die Verschraubung fest am Kopfteil sitzen. Anschließend die 9V-Batterie mit den Kabelbinder befestigen.
+
+<img src="pic/19robi.png" width="500"> 
+<br> <br>
+
+<img src="pic/20robi.png" width="500"> 
+<br> <br>
+
+<img src="pic/21robi.png" width="500"> 
+<br> <br>
+
+
+Die Schrittmotore in die Fußhülle montieren und das Fuß Unterteil ankleben
+
+<img src="pic/22robi.png" width="500"> 
+<br> <br>
+
+Die Schuhe an die Füße montieren
+
+<img src="pic/23robi.png" width="500"> 
+<br> <br>
+
+<img src="pic/24robi.png" width="500"> 
+<br> <br>
+
+Die Servo-Kabel in den Body führen und die Füße an die Fußoberteile kleben
+
+<img src="pic/25robi.png" width="500"> 
+<br> <br>
+
+Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet werden.
+
+<img src="pic/36servoschuh.png" width="500"> 
+<br> <br>
+
+## Schritt 7: 
+Den NANO in das obere Kopfteil montieren
+Platinenhalter auf das Shield kleben und das Shield anschließend in das innere, obere Kopfteil kleben. Daneben den Schalter montieren und verdrahten.
+Vor dem endgültigen verkleben des NANOs in das Obere Kopfteil, sollte er fertig programmiert sein.
+Optional noch zwei LEDs mit 1kOhm Vorwiderstand an 9V als Augen verwenden.
+
+
+Einbau des NANO und der Battierie in den Robi-Kopfteil
+
+<img src="pic/28robi.png" width="500"> 
+<br> <br>
+
+Anschlüsse der LEDs
+
+<img src="pic/29robi.png" width="500"> 
+<br> <br>
+
+Anschluss des Batterieclips, des Schalters und der LEDs
+
+<img src="pic/30robi.png" width="500"> 
+<br> <br>
+
+Fertig, Glückwunsch!
+
+## Technische Hinweise
+
+
+Anschlüsse des Servo-Motor SG90/MG90:
+
+<img src="pic/31robi.png" width="500"> 
+<br> <br>
+
+## Servo-Motor Impulsdiagramme:
+
+<img src="pic/32robi.png" width="500"> 
+<br> <br>
+
+Impulsdiagramm: Ansteuerung des Servos mit einer Frequenz von 50 Hz:
+
+<img src="pic/33robi.png" width="500"> 
+<br> <br>
+
+Impulsdiagramm: Ansteuerung des Servos mit einer Impulsbreite von 2,5ms (180°):
+
+<img src="pic/34robi.png" width="500"> 
+<br> <br>
+
+
+
+
 ---
 
 <div style="position:absolute; left:2cm; ">   
