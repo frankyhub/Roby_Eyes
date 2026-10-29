@@ -58,16 +58,15 @@ Verwende die Lasercutter Vorlage, bestehend aus, Kopf Oberteilteil, Füße und S
 <img src="pic/07robi.png" width="500"> 
 <br> <br>
 
-Lasercutter-Datei (3mm Sperrholz)
 
 ## Schritt 2: 
-Das Kopf Oberteil montieren.
+
+Das Kopfteil montieren.
 
 <img src="pic/08robi.png" width="500"> 
 <br> <br>
 
 ## Schritt 3: 
-Das Kopfteil montieren.
 
 Die Hülle der beiden Füße verkleben.
 Achtung: Wir benötigen zwei Füße. Die Öffnungen für die Servokabel sind jeweils innen und die Servos zeigen nach vorne!
