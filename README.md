@@ -143,9 +143,6 @@ Die Schrittmotore in die Fußhülle montieren und das Fuß Unterteil ankleben
 
 Die Schuhe an die Füße montieren
 
-<img src="pic/23robi.png" width="500"> 
-<br> <br>
-
 <img src="pic/24robi.png" width="500"> 
 <br> <br>
 
