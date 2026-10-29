@@ -42,12 +42,7 @@ Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
 | 1  | 20cm Schaltlitze 0,25mm2  | 
 
 
-
-## Bauteilbilder der Stückliste
-
-![Bild](pic/04robi.png)
-
-## Der NANO mit [Shield](https://github.com/frankyhub/KiCad-Shield/tree/main/NANO_Bot) und Stiftleisten
+## Der NANO mit Stiftleisten
 
 <img src="pic/05robi.png" width="500"> 
 <br> <br>
@@ -65,14 +60,6 @@ Verwende die Lasercutter Vorlage, bestehend aus:
 + 2 x Schuhe
 
 Lasercutter-Datei (3mm Sperrholz)
-
-<img src="pic/06robi.png" width="500"> 
-<br> <br>
-
- Füße und Schuhe (3mm Sperrholz)
-
-<img src="pic/07robi.png" width="500"> 
-<br> <br>
 
 ## Schritt 2: 
 Das Kopf Oberteil montieren.
