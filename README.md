@@ -97,6 +97,7 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 
 <div>
+  
 |	Servo	|	NANO|
 | -------- | -------- | 
 | Servo rechts oben| D5|
