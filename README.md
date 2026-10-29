@@ -53,7 +53,7 @@ Der Aufbau und die Montage von Robi ist in mehrere Schritte unterteilt
 
 ## Schritt 1: 
 
-Verwende die Lasercutter Vorlage, bestehend aus, Kopf Oberteilteil, Füße und Schuhe
+Verwende die Lasercutter Vorlage, bestehend aus, Kopfteil, Füße und Schuhe
 
 <img src="pic/07robi.png" width="500"> 
 <br> <br>
@@ -96,12 +96,35 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 ## Schritt 4: 
 Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 
+<div>
+|	Servo	|	NANO|
+| -------- | -------- | 
+| Servo rechts oben| D5|
+| Servo rechts unten | D6 |
+| Servo links oben | D8 |
+| Servo links unten  |D9 |
+| -------- | -------- | 
+
+  |  MAX72xx | NANO |
+| -------- | -------- | 
+|    VCC | 5V|
+|    GND| GND|
+ |   DIN | D11|
+|    CS |  D10|
+|    CLK | D13|
+| -------- | -------- | 
+
+<div align="center">
+
 <img src="pic/31robi.png" width="500"> 
 <br> <br>
 
 ## Schritt 5: 
 Vor der Montage der Servos ist ein Funktionstest sinnvoll:
-Den Robi mit der Arduino IDE in C++ oder in Blocksprache programmieren.
+Den Robi mit der Arduino IDE (Robi_tanzt) programmieren. Es stehen auch Testprogramme für die Servos und das LED-Display zur Verfügung.
+
+Im Robi_tanzt.ino Programm kann zur korrekten Position der Servos der CALIBRATION-Modus gewählt werden (Programmzeile 233).
+
 Ist der Robi programmiert und sind die Servos in 90° Stellung, können sie in das Kopf-Unterteil und in die Füße montiert werden.
 
 
@@ -137,12 +160,13 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 
 ## Schritt 7: 
 
-Das Programm in den NANO laden.
+Das "RUN" Programm in den NANO laden.
 
 </div>
+
 Es stehen 3 Programm-Modis zur verfügung.
 
-In der Programmzeile 233 einen Modus auswählen:
+In der Programmzeile 233 den "RUN" Modus auswählen:
 
 + //#define INSTALL
 + //#define CALIBRATION
@@ -150,26 +174,7 @@ In der Programmzeile 233 einen Modus auswählen:
 
 
   
-Den NANO, den Schalter und die LED-Matrix in das Kopfteil montieren und verdrahten.
-
-|	Servo	|	NANO|
-| -------- | -------- | 
-| Servo rechts oben| D5|
-| Servo rechts unten | D6 |
-| Servo links oben | D8 |
-| Servo links unten  |D9 |
-| -------- | -------- | 
-
-  |  MAX72xx | NANO |
-| -------- | -------- | 
-|    VCC | 5V|
-|    GND| GND|
- |   DIN | D11|
-|    CS |  D10|
-|    CLK | D13|
-| -------- | -------- | 
-
-<div align="center">
+---
 
   
 ## Technische Hinweise
