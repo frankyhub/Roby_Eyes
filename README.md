@@ -170,7 +170,9 @@ In der Programmzeile 233 den "RUN" Modus auswählen:
 + //#define CALIBRATION
 + #define RUN
 
+## Schritt 8
 
+Funktionstest
   
 ---
 
