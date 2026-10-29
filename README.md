@@ -161,7 +161,7 @@ Das "RUN" Programm in den NANO laden anschließend den NANO mit Shield, den Scha
 
 </div>
 
-Es stehen 3 Programm-Modis zur verfügung.
+Es stehen 3 Programm-Modis zur Verfügung.
 
 In der Programmzeile 233 den "RUN" Modus auswählen:
 
