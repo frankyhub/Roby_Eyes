@@ -2,6 +2,13 @@
                                       PROGRAMMINFO
 ************************************************************************************************** 
 Funktion: ROBI tanzt - 2 x MAX72xx Display changed eyes
+
+!!!In der Programmzeile 233 den Modus einstellen:
+//Programmauswahl - Nur EIN Programm aktivieren!!!
+//#define INSTALL
+//#define CALIBRATION
+#define RUN
+
 **************************************************************************************************
 Version: 28.10.2026
 **************************************************************************************************
