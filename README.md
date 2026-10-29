@@ -52,12 +52,15 @@ Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
 Der Aufbau und die Montage von Robi ist in mehrere Schritte unterteilt
 
 ## Schritt 1: 
-Überprüfe die Laserteile auf Vollständigkeit.
+
 Verwende die Lasercutter Vorlage, bestehend aus:
 1 x Kopf Oberteilteil
 1 x Kopf Unterteil
 2 x Füße
 2 x Schuhe
+
+<img src="pic/07robi.png" width="500"> 
+<br> <br>
 
 Lasercutter-Datei (3mm Sperrholz)
 
