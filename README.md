@@ -137,8 +137,7 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 
 ## Schritt 7: 
 
-
-Vor dem endgültigen verkleben des NANOs in das Kopfteil das Programm in den NANO laden.
+Das Programm in den NANO laden.
 
 </div>
 Es stehen 3 Programm-Modis zur verfügung.
