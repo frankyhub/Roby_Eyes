@@ -136,9 +136,9 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 <br> <br>
 
 ## Schritt 7: 
-Den NANO in das obere Kopfteil montieren
-Platinenhalter auf das Shield kleben und das Shield anschließend in das innere, obere Kopfteil kleben. Daneben den Schalter montieren und verdrahten.
-Vor dem endgültigen verkleben des NANOs in das Obere Kopfteil das Programm in den NANO laden.
+
+
+Vor dem endgültigen verkleben des NANOs in das Kopfteil das Programm in den NANO laden.
 
 </div>
 Es stehen 3 Programm-Modis zur verfügung.
@@ -150,6 +150,27 @@ In der Programmzeile 233 den eine Modus auswählen:
 + #define RUN
 
 <div align="center">
+  
+Den NANO, den Schalter und die LED-Matrix in das Kopfteil montieren und verdrahten.
+
+|	Servo	|	NANO|
+| -------- | -------- | 
+| Servo rechts oben| D5|
+| Servo rechts unten | D6 |
+| Servo links oben | D8 |
+| Servo links unten  |D9 |
+| -------- | -------- | 
+    MAX72xx  NANO
+| -------- | -------- | 
+|    VCC | 5V|
+|    GND| GND|
+ |   DIN | D11|
+|    CS |  D10|
+|    CLK | D13|
+| -------- | -------- | 
+
+
+
   
 ## Technische Hinweise
 
