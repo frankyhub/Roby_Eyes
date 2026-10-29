@@ -143,7 +143,7 @@ Vor dem endgültigen verkleben des NANOs in das Kopfteil das Programm in den NAN
 </div>
 Es stehen 3 Programm-Modis zur verfügung.
 
-In der Programmzeile 233 den eine Modus auswählen:
+In der Programmzeile 233 einen Modus auswählen:
 
 + //#define INSTALL
 + //#define CALIBRATION
