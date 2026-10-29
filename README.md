@@ -160,7 +160,8 @@ Den NANO, den Schalter und die LED-Matrix in das Kopfteil montieren und verdraht
 | Servo links oben | D8 |
 | Servo links unten  |D9 |
 | -------- | -------- | 
-    MAX72xx  NANO
+
+  |  MAX72xx | NANO |
 | -------- | -------- | 
 |    VCC | 5V|
 |    GND| GND|
