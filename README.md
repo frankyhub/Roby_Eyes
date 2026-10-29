@@ -144,9 +144,9 @@ Es stehen 3 Programm-Modis zur verfügung.
 
 In der Programmzeile 233 den eine Modus auswählen:
 
-//#define INSTALL
-//#define CALIBRATION
-#define RUN
++ //#define INSTALL
++ //#define CALIBRATION
++ #define RUN
 
 ## Technische Hinweise
 
