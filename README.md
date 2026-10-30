@@ -178,7 +178,7 @@ In der Programmzeile 233 den "RUN" Modus auswählen:
 + //#define CALIBRATION
 + #define RUN
 
-Ist der Funktionstest erfolgreich, kleben wir die 3D Druck Abstandshalter auf das NANO-Shield und kleben den NANO 
+Ist der erste Funktionstest erfolgreich, kleben wir die 3D Druck Abstandshalter auf das NANO-Shield und kleben den NANO 
 mit Shield, das LED-Display in das Kopfteil und montieren den Schalter in die Kopfteil Platte. Das Kopfteil jetzt 
 vollständig zusammenbauen.
 
@@ -191,7 +191,7 @@ vollständig zusammenbauen.
 
 Es stehen auch 3D-Druck Arme zur Verfügung, die an das Kopfteil geklebt werden. 
 
-Abschließend folgt der Funktionstest.
+Jetzt kann Roby tanzen.
 
 
 <img src="pic/RobiEyes.png" width="500"> 
