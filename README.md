@@ -168,9 +168,7 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 
 ## Schritt 7: 
 
-Das "RUN" Programm in den NANO laden anschließend den NANO mit Shield, den Schalter und das LED-Display in das Kopfteil montieren.
-
-</div>
+Das "RUN" Programm in den NANO laden.
 
 Es stehen 3 Programm-Modis zur Verfügung.
 
@@ -179,6 +177,13 @@ In der Programmzeile 233 den "RUN" Modus auswählen:
 + //#define INSTALL
 + //#define CALIBRATION
 + #define RUN
+
+Ist der Funktionstest erfolgreich, kleben wir die 3D Druck Abstandshalter auf das NANO-Shield und kleben den NANO 
+mit Shield, das LED-Display in das Kopfteil und montieren den Schalter in die Kopfteil Platte. Das Kopfteil jetzt 
+vollständig zusammenbauen.
+
+</div>
+
 
 <div align="center">
   
