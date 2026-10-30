@@ -97,6 +97,7 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 
 <img src="pic/NANO.png" width="500"> 
+<br> <br>
 
 <img src="pic/31robi.png" width="500"> 
 <br> <br>
