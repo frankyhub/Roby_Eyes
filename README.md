@@ -195,13 +195,6 @@ Abschließend folgt der Funktionstest.
 ---
 
   
-## Technische Hinweise
-
-
-Anschlüsse des Servo-Motor SG90/MG90:
-
-<img src="pic/31robi.png" width="500"> 
-<br> <br>
 
 ## Servo-Motor Impulsdiagramme:
 
