@@ -97,6 +97,10 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 
 <img src="pic/NANO.png" width="500"> 
+
+<img src="pic/31robi.png" width="500"> 
+<br> <br>
+
 <br> <br>
 
 <img src="pic/MAX.png" width="500"> 
@@ -123,8 +127,7 @@ Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 
 <div align="center">
 
-<img src="pic/31robi.png" width="500"> 
-<br> <br>
+
 
 ## Schritt 5: 
 Wir starten den ersten Funktionstest. Den NANO mit der Arduino IDE (Robi_tanzt.ino) programmieren. Es stehen auch Testprogramme für die Servos und das LED-Display zur Verfügung.
