@@ -96,6 +96,12 @@ Alternativ können zu besseren Stabilität auch die 3D-Druck Teile verwendet wer
 ## Schritt 4: 
 Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 
+<img src="pic/NANO.png" width="500"> 
+<br> <br>
+
+<img src="pic/MAX.png" width="500"> 
+<br> <br>
+
 </div>
   
 |	Servo	|	NANO|
