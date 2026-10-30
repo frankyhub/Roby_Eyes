@@ -99,6 +99,14 @@ Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 <img src="pic/NANO.png" width="500"> 
 <br> <br>
 
+|	Servo	|	NANO|
+| -------- | -------- | 
+| Servo rechts oben| D5|
+| Servo rechts unten | D6 |
+| Servo links oben | D8 |
+| Servo links unten  |D9 |
+| -------- | -------- | 
+
 <img src="pic/31robi.png" width="500"> 
 <br> <br>
 
@@ -107,15 +115,8 @@ Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 <img src="pic/MAX.png" width="500"> 
 <br> <br>
 
-</div>
-  
-|	Servo	|	NANO|
-| -------- | -------- | 
-| Servo rechts oben| D5|
-| Servo rechts unten | D6 |
-| Servo links oben | D8 |
-| Servo links unten  |D9 |
-| -------- | -------- | 
+ 
+
 
   |  MAX72xx | NANO |
 | -------- | -------- | 
@@ -126,7 +127,7 @@ Den Robi verdrahten, die Bauteile jedoch noch nicht in das Gehäuse montieren.
 |    CLK | D13|
 | -------- | -------- | 
 
-<div align="center">
+
 
 
 
