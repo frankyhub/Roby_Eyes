@@ -9,14 +9,14 @@
 |![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/Roby_Eyes)| <a href="https://github.com/frankyhub/Roby_Eyes/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/Roby_Eyes/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
 
 
-# Robi_Eyes
+# Roby_Eyes
 
 <img src="pic/Roby_Eyes.gif" width="500"> 
 <br> <br
 
 
 ## Story:
-Das Repo beschreibt den Robi_Eyes, er hat zwei MAX7219 Displays für die Augen und er kann laufen, tanzen und den Moonwalk. Jedes Bein hat zwei Gelenke, die von Servo-Motoren bewegt werden. Als Steuerung dient ein Arduino NANO, gespeist von einer 9V-Batterie.
+Das Repo beschreibt den Roby_Eyes, er hat zwei MAX7219 Displays für die Augen und er kann laufen, tanzen und den Moonwalk. Jedes Bein hat zwei Gelenke, die von Servo-Motoren bewegt werden. Als Steuerung dient ein Arduino NANO, gespeist von einer 9V-Batterie.
 Die Robi_Eyes-Elemente werden aus einer 3mm Sperrholzplatte gelasert.
 
 
